@@ -1,0 +1,141 @@
+.wd-border-col {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+body {
+    background-color: Black;
+}
+
+.wd-grey-color{
+    color: rgb(110,118,125);
+}
+
+.wd-white-color{
+    color: white;
+}
+
+.wd-a-layout {
+    padding-left: 16px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.wd-font-13px {
+    font-size: 13px;
+}
+
+.wd-left-padding {
+    padding-left: 16px;
+}
+
+.wd-small-border {
+    border-style: solid;
+    height: 1px;
+    border-color: rgb(110,118,125);
+}
+
+.wd-avatar-img {
+    border-radius: 48px;
+    padding-left: 16px;
+    padding-top: 12px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.wd-c-layout {
+    float: left;
+    padding-left: 12px;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.wd-float-done {
+   clear: both;
+}
+
+
+.wd-d-layout {
+
+    font-size: 15px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    word-wrap: break-word;
+    width: 506px;
+}
+
+.wd-grid-row {
+   clear: both;
+}
+
+
+.wd-e-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-left: 12px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+
+}
+
+.wd-f-layout {
+    padding: 12px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+    word-wrap: break-word;
+    width: 504px;
+}
+
+.wd-font-15 {
+ font-size: 15px;
+}
+
+.wd-border {
+    border-style: solid;
+    height: 1px;
+    border-color: rgb(110,118,125);
+
+}
+
+.wd-g-layout {
+    padding-top: 12px;
+    height: 30px;
+    width: 30px;
+    padding-right: 16px;
+}
+
+.wd-g-layout-row {
+    padding-left: 12px;
+    word-wrap: break-word;
+}
+
+.wd-grid-row {
+   clear: both;
+    padding: 16px;
+    border-color: rgb(47, 51, 54);
+    color: rgb(47, 51, 54);
+}
+
+.wd-grid-col-half-page {
+   padding-left: 12px;
+   width: 14%;
+   float: left;
+   border-color: rgb(47, 51, 54);
+   font-size: 15px;
+   padding: 16px;
+}
+
+.wd-red {
+    color: red;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}

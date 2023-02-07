@@ -1,0 +1,120 @@
+.wd-input-selector {
+  background-color: DarkGrey;
+  border-radius: 50px;
+  border-color: rgb(47, 51, 54);
+  float: left;
+  padding-left: 12px;
+  border-width: 5px;
+  color: white;
+}
+
+.wd-border-col {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-img-selector {
+    float: right;
+    padding-right: 12px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+input, textarea{
+    width: 90%;
+    padding-left: 12px;
+    height: 25px;
+}
+textarea {
+    background-color: DarkGrey;
+}
+
+body {
+    background-color: Black;
+}
+
+.wd-grid-row {
+   clear: both;
+    padding: 16px;
+    border-color: rgb(47, 51, 54);
+    color: rgb(47, 51, 54);
+}
+
+.wd-grid-col-half-page {
+   padding: 16px;
+   width: 15%;
+   float: left;
+   border-color: rgb(47, 51, 54);
+   font-size: 15px;
+}
+
+.wd-c-layout {
+    padding-left: 12px;
+    color: rgb(110,118,125);
+    border-color: rgb(47, 51, 54);
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.wd-grey-color{
+    color: rgb(110,118,125);
+}
+
+.wd-white-color{
+    color: white;
+}
+
+.wd-for-you-layout {
+    border-style: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-top-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    word-wrap: break-word;
+    width: 49px;
+    padding-right: 20px;
+
+}
+
+a:first-child {
+  color: rgb(29,161,242);
+  border-bottom-color: rgb(29,161,242);
+  font: 15px;
+  width: 100%;
+}
+
+.wd-d-layout {
+   color: white;
+   float: left;
+   border-color: rgb(47, 51, 54);
+   padding-bottom: 170px;
+}
+
+.wd-small-img-layout {
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.wd-d-img-layout {
+ border-radius: 20px;
+ border-color: rgb(47, 51, 54);
+ float: right;
+ height: 100px;
+ width: 100px;
+ padding-right: 16px;
+    position: relative;
+    right: 100px;
+}
+
+
+.wd-small-border {
+    border-style: solid;
+    height: 1px;
+    border-color: rgb(110,118,125);
+}
+
