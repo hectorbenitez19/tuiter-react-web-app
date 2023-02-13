@@ -1,11 +1,8 @@
 .wd-input-selector {
-  background-color: DarkGrey;
   border-radius: 50px;
-  border-color: rgb(47, 51, 54);
   float: left;
   padding-left: 12px;
   border-width: 5px;
-  color: white;
 }
 
 .wd-border-col {
@@ -85,7 +82,6 @@ a:first-child {
 }
 
 .wd-d-layout {
-   color: white;
    float: left;
    border-color: rgb(47, 51, 54);
    padding-bottom: 170px;
