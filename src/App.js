@@ -3,6 +3,7 @@ import './App.css';
 import Labs from "./Labs";
 import HelloWorld from "./Labs/A6/hello-world";
 import Tuiter from "./tuiter";
+import Home from "./tuiter/home";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
@@ -14,12 +15,11 @@ function App() {
         <BrowserRouter>
         <div className="container">
                         <Routes>
-                          <Route index
-                                 element={<Labs/>}/>
+                          <Route path="/*" element={<Labs/>}/>
                           <Route path="/hello"
                                  element={<HelloWorld/>}/>
                           <Route path="/tuiter"
-                                 element={<Tuiter/>}/>
+                                 element={<Home/>}/>
                         </Routes>
             </div>
              </BrowserRouter>
