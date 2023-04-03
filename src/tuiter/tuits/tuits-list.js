@@ -25,6 +25,12 @@ const TuitsList = () => {
        </li>
      }
 
+          {
+            postsArray.map(post =>
+              <TuitItem
+                key={post._id} tuit={post}/> )
+          }
+
    </ul>
  );
 };
