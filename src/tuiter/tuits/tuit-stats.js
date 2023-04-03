@@ -62,7 +62,10 @@ return(
         </div>
      <div className="col-3">
          <i className="bi bi-heart-fill"
-            onClick={() => toggleLikeHandler(tuit)}
+            onClick={() => dispatch(updateTuitThunk({
+                                  ...tuit,
+                                  likes: tuit.likes + 1
+                                })}
             >{tuit.likes}</i>
      </div>
 
@@ -94,8 +97,10 @@ return(
         </div>
      <div className="col-3">
          <i className="bi bi-heart"
-         onClick={() => toggleLikeHandler(tuit)}
-           value={tuit.liked}
+         onClick={() => dispatch(updateTuitThunk({
+                               ...tuit,
+                               likes: tuit.likes + 1
+                             })}
 
             >{tuit.likes}</i>
      </div>
