@@ -23,6 +23,12 @@ const TuitsList = () => {
          Loading...
        </li>
      }
+
+          {
+            tuits.map(post =>
+              <TuitItem
+                key={post._id} tuit={post}/> )
+          }
    </ul>
  );
 };
