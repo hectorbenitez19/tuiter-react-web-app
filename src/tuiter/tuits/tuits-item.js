@@ -6,7 +6,7 @@ import TuitStat from "./tuit-stats";
 import {deleteTuit, createTuit}
  from "./tuits-reducer";
 
- import {deleteTuitThunk} from "../../services/tuits-thunks";
+ import {deleteTuitThunk} from "../../services/tuits-thunk";
 
 
 const TuitItem = (

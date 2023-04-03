@@ -4,6 +4,8 @@ import {useDispatch, useSelector}
 
 import TuitItem
   from "./tuits-item";
+  import {findTuitsThunk}
+    from "../../services/tuits-thunk";
 
 const TuitsList = () => {
  const postsArray = useSelector(state => state.tuits);

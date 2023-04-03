@@ -61,12 +61,7 @@ return(
                >{tuit.retuits}</i>
         </div>
      <div className="col-3">
-         <i className="bi bi-heart-fill"
-            onClick={() => dispatch(updateTuitThunk({
-                                  ...tuit,
-                                  likes: tuit.likes + 1
-                                })}
-            >{tuit.likes}</i>
+
      </div>
 
      <div className="col-3">
@@ -96,13 +91,7 @@ return(
                >{tuit.retuits}</i>
         </div>
      <div className="col-3">
-         <i className="bi bi-heart"
-         onClick={() => dispatch(updateTuitThunk({
-                               ...tuit,
-                               likes: tuit.likes + 1
-                             })}
 
-            >{tuit.likes}</i>
      </div>
 
      <div className="col-3">
