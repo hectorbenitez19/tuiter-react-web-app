@@ -8,13 +8,12 @@ import TuitItem
     from "../../services/tuits-thunk";
 
 const TuitsList = () => {
- const postsArray = useSelector(state => state.tuits);
   const {tuits, loading} = useSelector(
    state => state.tuitsData)
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk())
-  }, [])
+  }, []);
 
  return(
    <ul className="list-group">
@@ -24,13 +23,6 @@ const TuitsList = () => {
          Loading...
        </li>
      }
-
-          {
-            postsArray.map(post =>
-              <TuitItem
-                key={post._id} tuit={post}/> )
-          }
-
    </ul>
  );
 };
