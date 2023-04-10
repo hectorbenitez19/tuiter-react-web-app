@@ -61,7 +61,7 @@ return(
                >{tuit.retuits}</i>
         </div>
      <div className="col-3">
-
+         <i className="bi bi-heart-fill">{tuit.likes}</i>
      </div>
 
      <div className="col-3">
